@@ -583,8 +583,12 @@ footer span {
         text-align: justify;
     }
 
-    .paragraph-guns {
-        width: 100%;
+    .paragraph-guns, .paragraph-hardware, .article-paragraph {
+        width: 90%;
+    }
+
+    .image-sectionh {
+        width: 60%;
     }
 
     .section03 {
