@@ -1,0 +1,791 @@
+/*========== Import de fontes ==========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/*========== CSS Reset ========== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+
+}
+
+/*========== Header ========== */
+
+#logo {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+a {
+    color: #ECF0F1;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #0088a9;
+    font-size: 1.23rem;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252A;
+    padding: 1rem;
+}
+
+#menu {
+    display: flex;
+    gap: 0.7rem;
+}
+
+#menu a {
+    display: block;
+    padding: 0.5rem;
+}
+
+#button-responsive {
+    display: none;
+}
+
+/*========== Section #1 ========== */
+
+.section01 {
+    width: 97%;
+    height: 75%;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section {
+    margin: 0 0 2rem 1.9rem;
+    width: 37vw;
+}
+
+.section-stroy-telling {
+    width: 50%;
+    height: 70%;
+    margin-left: auto;
+}
+
+.article-title {
+    font-size: 2.7rem;
+    margin-bottom: 1.1rem;
+}
+
+.article-paragraph {
+    width: 80%;
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph-hardware {
+    width: 90%;
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph-guns {
+    width: 60%;
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-article {
+    border: none;
+    border-radius: 7px;
+    background-color: #24252A;
+    color: #fff;
+    padding: 1.2rem 3rem;
+    font-size: 0.9rem;
+}
+
+.btn-article:hover {
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    background-color: #1D5375;
+    box-shadow: 4px 4px 3px #aaaaaa;
+
+}
+
+.about2 {
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.about3 {
+    width: 96%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem auto;
+}
+
+.image-sectionh {
+    width: 48%;
+}
+
+.section-about-hardware {
+    width: 42%;
+}
+
+/*========== Section #2 ========== */
+
+.section02 {
+    width: 100%;
+    height: 50%;
+}
+
+.section2-title {
+    font-size: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.images-section-2 {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    background-color: rgba(85, 83, 83, 0.021);
+}
+
+.robot-image {
+    width: 21%;
+    height: 25vh;
+    margin: 1rem;
+    object-fit: cover;
+    border-radius: 7px;
+
+}
+
+.robot-image:hover {
+    box-shadow: 1.5px 1.5px 1.5px #aaaaaa;
+    transition: all 0.3s ease-in-out;
+}
+
+/*========== Section #3 ========== */
+.section03 {
+    width: 98%;
+    height: 50%;
+    margin: 0.8rem auto;
+    display: flex;
+}
+
+.section3-title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card {
+    width: 20%;
+    min-height: 40vh;
+    margin: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-image {
+    width: 100%;
+    height: 78%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 3px #aaaaaa;
+    transition: all 0.3s ease-in-out;
+}
+
+.personal-name {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.personal-infos {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-linkedin {
+    color: #0A66C2;
+    margin-right: 1rem;
+    font-size: 2.2rem;
+}
+
+.fa-linkedin:hover {
+    color: #064a8f;
+}
+
+.fa-github-square {
+    color: #171515;
+    font-size: 2.2rem;
+}
+
+.fa-github-square:hover {
+    color: #302e2e;
+}
+
+/*========== Section #4 ========== */
+
+.section04 {
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(235, 229, 229, 0.288);
+    /* border: 1px solid black; */
+}
+
+.image-section4 {
+    width: 45vw;
+}
+
+#form-contact {
+    width: 30%;
+    height: 92%;
+    padding: 1rem;
+    background-color: #ECF0F1;
+    border-radius: 7px;
+    margin: 2rem 0;
+}
+
+#form-contact div {
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem;
+}
+
+.form-p {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+}
+
+.form-P {
+    font-size: 0.8rem;
+}
+
+.contact-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+#ciente {
+    font-size: 0.9rem;
+}
+
+#checkboxC {
+    margin: 0.7rem 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 7px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+    border: 1px solid #0088a9;
+}
+
+.input:checked {
+    background-color: #1D5375;
+}
+
+
+label {
+    margin-bottom: 0.9rem;
+}
+
+textarea {
+    resize: none;
+    height: 12vh;
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    border: none;
+}
+
+#contact-btn {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1D5375;
+    font-size: 1.2rem;
+}
+
+#contact-btn:hover {
+    background-color: #2879ac;
+    box-shadow: 2px 2px 3px #aaaaaa;
+    transition: all 0.3s ease-in-out;
+}
+
+span {
+    color: red;
+}
+
+/*========== Footer ========== */
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #24252A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: block;
+}
+
+.foter-all {
+    display: block;
+}
+
+.footer-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-discord {
+    color: #6441a5;
+}
+
+.fa-youtube-square {
+    color: #c4302b;
+}
+
+.fa-instagram {
+    color: #3f729b;
+}
+
+.fa-discord:hover {
+    color: #582fa5;
+    transition: 0.3s all case;
+}
+
+.fa-youtube-square:hover {
+    color: #c4110b;
+    transition: 0.3s all case;
+}
+
+.fa-instagram:hover {
+    color: #1a64a0;
+    transition: 0.3s all case;
+}
+
+.footer-social-links {
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.footer-social-medias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vh 1vw 3vh 0;
+}
+
+footer span {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8vw;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*========== Resposive ========== */
+
+@media (max-width: 1500px) {
+    .robot-image {
+        width: 40%;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 920px) {
+
+    .paragraph-guns,
+    .paragraph-hardware,
+    .article-paragraph {
+        width: 100%;
+    }
+
+    .image-section {
+        width: 60%;
+    }
+
+    .section02 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .robot-image {
+        width: 40%;
+    }
+
+    .section03 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 60%;
+    }
+
+    #form-contact {
+        width: 90%;
+    }
+}
+
+@media (max-width: 837px) {
+    #header {
+        width: 100%;
+    }
+
+    #logo {
+        font-size: 1.5rem;
+    }
+
+    .section01,
+    .about2,
+    .about3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        margin-left: 2.5rem;
+    }
+
+    .about3 {
+        flex-direction: column-reverse;
+    }
+
+    .image-section {
+        width: 70%;
+        display: flex;
+    }
+
+    .section-stroy-telling,
+    .section-about-hardware {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .article-title {
+        margin: 0;
+    }
+
+    .article-paragraph,
+    .paragraph-guns,
+    .paragraph-hardware {
+        margin: 0;
+        width: 70%;
+    }
+
+    .btn-article {
+        margin: 0;
+    }
+
+    .section02,
+    .images-section-2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .section04 {
+        width: 100%;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #form-contact {
+        width: 100%;
+    }
+
+    footer span {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 792px) {
+    .robot-image {
+        width: 35%;
+        margin: 0.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about2,
+    .about3 {
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-about-guns,
+    .section-about-hardware {
+        width: 90%;
+        margin: 2rem auto;
+        text-align: justify;
+    }
+
+    .paragraph-guns {
+        width: 100%;
+    }
+
+    .section03 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 710px) {
+    #logo {
+        font-size: 1.9rem;
+    }
+
+    .section-stroy-telling, .about2, .about3 {
+        margin: 0;
+    }
+
+    .about2 {
+        flex-direction: column-reverse;
+    }
+
+    .paragraph-guns, .paragraph-hardware {
+        width: 100%;
+    }
+
+    .article-paragraph {
+        width: 90%;
+    }
+
+    .image-sectionh {
+        margin-right: 6.4rem;
+    }
+
+    .robot-image {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #button-responsive {
+        border: none;
+        padding: 0.5rem 1rem;
+        background-color: #c6c8cc;
+        display: block;
+    }
+
+    #nav a {
+        color: #24252A;
+    }
+
+    #button-responsive {
+        border-radius: 7px;
+    }
+
+    #menu {
+        display: block;
+        width: 100%;
+        height: 0;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        z-index: 2;
+        background-color: #e7e7e7;
+        transition: 0.6s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 80px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(158, 156, 156, 0.5);
+    }
+
+    .card {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 494px) {
+
+    html {
+        overflow-x: hidden;
+    }
+    
+    #logo {
+        font-size: 1.6rem;
+    }
+
+    #button-responsive {
+        border-radius: 7px;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .image-section4 {
+        display: none;
+    }
+
+    .article-title {
+        font-size: 2.1rem;
+    }
+
+    .article-paragraph
+    {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+
+    .paragraph-guns,
+    .paragraph-hardware {
+        width: 100%;
+    }
+
+    .article-title {
+        font-size: 1.9rem;
+    }
+
+    .section2-title {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .section02 {
+        width: 100%;
+    }
+
+    .robot-image {
+        width: 60%;
+    }
+
+    .section03 {
+        min-width: 100%;
+    }
+
+    .section3-title {
+        font-size: 1.7rem;
+    }
+
+    #section04 {
+        width: 100%;
+    }
+
+    #contact-btn {
+        height: 6vh;
+    }
+
+    .footer-title {
+        font-size: 1rem;
+    }
+
+    footer span {
+        font-size: 0.8rem;
+    }
+
+    .image-sectionh {
+        display: none;
+    }
+
+    .image-section {
+        width: 80%;
+        margin-right: 3rem;
+        display: flex;
+    }
+
+    .about2, .about3 {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 390px) {
+    #logo {
+        font-size: 1.4rem;
+    }
+    
+    .article-paragraph {
+        width: 85%;
+    }
+    .paragraph-guns, .paragraph-hardware {
+        width: 93%;
+    }
+
+    .card {
+        width: 78%;
+    }
+}
